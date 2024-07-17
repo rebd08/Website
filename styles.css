@@ -1,0 +1,55 @@
+/* Google Fonts importeren */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc0cb; /* Roze achtergrond */
+    color: #333333; /* Donkere tekstkleur */
+}
+
+.bg-pink {
+    background-color: #ff69b4; /* Felle roze kleur voor header en footer */
+}
+
+.text-pink {
+    color: #ff69b4; /* Felle roze kleur voor titels */
+}
+
+.bg-light-blue {
+    background-color: #add8e6; /* Lichte blauwe achtergrondkleur voor secties */
+}
+
+.bg-light-green {
+    background-color: #90ee90; /* Lichte groene achtergrondkleur voor secties */
+}
+
+.bg-light-purple {
+    background-color: #e6e6fa; /* Lichte paarse achtergrondkleur voor secties */
+}
+
+.text-purple {
+    color: #800080; /* Paars voor titels */
+}
+
+.text-blue {
+    color: #0000ff; /* Blauw voor titels */
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ff1493 !important; /* Donkere roze hover */
+}
+
+form .btn-blue {
+    background-color: #0000ff; /* Blauwe knop */
+    color: #ffffff; /* Witte tekstkleur op knop */
+}
+
+form .btn-blue:hover {
+    background-color: #00008b; /* Donkere blauwe hover */
+}
